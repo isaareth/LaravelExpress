@@ -24,4 +24,5 @@ jobs:
       run: docker build . --file Dockerfile --tag isaareth/express-randomquotes:latest 
       
     - name: Docker Push 
-      run: docker push isaareth/express-randomquote
+      run: docker push isaareth/express-randomquotes
+
